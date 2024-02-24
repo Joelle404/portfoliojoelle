@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+*{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  h1{
+      color: rgb(158, 23, 23);
+      text-decoration: underline;
+      font-size: medium;
+  }
+  label{
+      color: rgb(26, 2, 58);
+  }
+  body {
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: cover;
+      background-image: url("formpic.jpg");
+      min-height: 100vh;
+      padding:10px 10% ;
+      overflow: hidden;
+    }
+    form {
+      text-align: left;
+      max-width: 400px; 
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.603); 
+      border-radius: 10px;
+  }
+   </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    
+</head>
+<body>
+    <h1>this page is developed by joelle 202108705</h1>
+    <form >
+        <label >First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label >Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label >DOB:</label>
+        <input type="text" id="DOB" name="DOB"><br><br>
+        <label >E_mail:</label>
+        <input type="text" id="E_mail" name="E_mail"><br><br>
+
+        <input type="radio" id="male"  name="male" value="CSS">
+        <label >male</label><br>
+        <input type="radio" id="female" name="female" value="JavaScript">
+        <label >female</label><br><br>
+
+<label >city:</label>
+<select id="city" name="city" >
+  <option value="jerusalem">jerusalem</option>
+  <option value="bethlehem">bethlehem</option>
+  <option value="jericho">jericho</option>
+  <option value="akko">akko</option>
+</select>
+
+<br>
+<label >faculty:</label>
+<select id="fac" name="fac" >
+  <option value="IT">IT</option>
+  <option value="fainance">fainance</option>
+  <option value="HR">HR</option>
+</select><br>
+<br>
+<input type="checkbox" id="Bike" name="Bike" value="Bike">
+<label > I can come by bike</label><br>
+<input type="checkbox" id="Car" name="Car" value="Car">
+<label > I can come by car</label><br>
+<input type="checkbox" id="Boat" name="Boat" value="Boat">
+<label > I can come by bus</label><br>
+<input type="checkbox" id="train" name="train" value="train">
+<label > I can come by train</label><br>
+<br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
